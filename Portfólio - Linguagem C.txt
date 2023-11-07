@@ -1,0 +1,25 @@
+Variáveis de Entrada de Dados
+opcao
+qtd_animais
+
+Variáveis fixas
+se(opcao = 1) // onca
+	qtd_kg_dia = 9
+	custo_dia = 45
+
+se(opcao = 2) // elefante
+	qtd_kg_dia = 15
+	custo_dia = 75
+
+Cálculos
+res_qtd_kg_dia = qtd_animais * qtd_comida_dia
+
+res_qtd_kg_mes = res_qtd_kg_dia * 30
+
+res_preco_mes = res_qtd_kg_mes * custo_dia
+
+-----------------------------------------------
+1 - Tabela (representando os animais do zoo);
+2 - Códigos (programa em linguagem C);
+3 - Prints dos testes;
+4 - Conclusão (as principais dificuldades encontradas).
