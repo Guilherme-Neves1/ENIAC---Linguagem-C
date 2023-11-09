@@ -57,7 +57,7 @@ int main(int argc, char const *argv[])
   printf("\n=========================== RESULTADOS ===========================\n");
   printf("\nQuantidade de consumo de alimentos por dia: %.2f Kg", res_qtd_kg_dia);
   printf("\nQuantidade de consumo de alimentos por mes: %.2f Kg", res_qtd_kg_mes);
-  printf("\nCusto estimado de gasto em alimentos por mes: R$%.2f\n", res_preco_mes);
+  printf("\nC;;usto estimado de gasto em alimentos por mes: R$%.2f\n", res_preco_mes);
 
   return 0;
 }
